@@ -8,4 +8,4 @@ npm install nodejs-getopt
 
 let getopt = require('nodejs-getopt');
 
-getopt.getopt(process.argv.slice(2),'a::b:c',{'a':function(){},'b':function(){}});
+getopt.getopt(process.argv.slice(2),'ab:c',{'a':function(){},'b':function(){}});
